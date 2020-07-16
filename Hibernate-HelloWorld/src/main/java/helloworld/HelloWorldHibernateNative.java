@@ -75,7 +75,7 @@ public class HelloWorldHibernateNative {
 
 		/* The MetadataSources API has many methods for adding mapping sources */
 		// Add hbm.xml mapping files
-		metadataSources.addFile(new File("src/main/resources/Message.hbm.xml").getAbsolutePath());
+		metadataSources.addFile(new File("src/main/java/model/Message.hbm.xml").getAbsolutePath());
 
 		// Read all hbm.xml mapping files from a JAR
 		// metadataSources.addJar(...)

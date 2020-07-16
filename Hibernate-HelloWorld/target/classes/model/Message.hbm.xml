@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 16, 2020 4:27:36 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+	<class name="model.Message" table="MESSAGES">
+		<id name="id">
+			<column name="MESSAGE_ID" />
+			<generator class="native" />
+		</id>
+		<property name="text" generated="never" lazy="false">
+			<column name="MESSAGE_TEXT" />
+		</property>
+	</class>
+</hibernate-mapping>
